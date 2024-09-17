@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+.tudo{ /* div onde está a tabela*/
+    margin: 1rem; /* Margem para dar um leve acabamento*/
+    padding-bottom: 1rem;/* Para afastar um pouco a tabela do fim da div*/
+    background-color: #0099ff;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000; 
+}
+
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* Remover espaços entre as bordas das células */
+    width: 80%; /* Ajustar o tamanho da tabela */
+    text-align: center; /* Centralizar o texto nas células */
+    border: 1px solid #ccc; /* Adicionar borda à tabela */
+}
+
+tr{
+    border: 1px solid #ccc; /* Linhas interna da tabela */
+}
